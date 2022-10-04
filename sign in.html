@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <style>
+        form{
+            margin: 0 auto;
+            border-radius: 10px;
+            color: rgb(129, 129, 129);
+            width: 300px;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        input, textarea{
+            outline: none;
+            border: 0px;
+            width: 235px;
+        }
+        
+        .field{
+            border: solid 3px #ccc;
+            padding: 5px;
+            
+        }
+
+        .field:focus{
+            border-color: rgb(114, 185, 218);
+        }
+
+        .center-content{
+            text-align: center;
+        }
+
+        .btn-blue{
+            border-color: rgb(26, 137, 180);
+            display: block;
+            width: 250px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 750;
+            background-color: rgb(26, 137, 180);
+            border-radius: 12px;
+            padding: 15px 30px;
+            margin-top: 100px;
+            color: rgb(165, 221, 247);
+            text-decoration: none;
+        }
+    </style>    
+</head>
+<body>
+    
+    <form action=""></form>
+    <form action="succes.html">
+        <p>Name:</p>
+        <input type="Name" class="field"> <br/>
+
+        <p>Email:</p>
+        <input type="Email" class="field"> <br/>
+
+        <p>Password:</p>
+        <input type="password" class="field"> <br/>
+
+        <p>Rewrite password:</p>
+        <input type="password" class="field"> <br/> 
+
+        <a class="center-content">
+            <input type="submit" class="btn-blue" value="Sign up">
+        </a>    
+      </form>
+</body>
+</html>
